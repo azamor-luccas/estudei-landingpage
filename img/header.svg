@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1440"
+   width="2300"
    height="691"
-   viewBox="0 0 1440 691"
+   viewBox="0 0 2300 691"
    fill="none"
    version="1.1"
    id="svg293"
@@ -23,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,20 +42,22 @@
      inkscape:window-height="704"
      id="namedview295"
      showgrid="false"
-     inkscape:zoom="0.54133066"
-     inkscape:cx="626.24286"
-     inkscape:cy="321.30936"
+     inkscape:zoom="0.27066533"
+     inkscape:cx="1295.4582"
+     inkscape:cy="-96.326771"
      inkscape:window-x="35"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg293" />
+     inkscape:current-layer="svg293"
+     inkscape:document-rotation="0" />
   <ellipse
-     cx="720"
-     cy="-31.5"
-     rx="1164"
+     cx="1150"
+     cy="-39.709232"
+     rx="1150"
      ry="690.5"
-     fill="black"
-     id="ellipse286" />
+     fill="#000000"
+     id="ellipse286"
+     style="stroke-width:0.993968" />
   <mask
      id="mask0"
      mask-type="alpha"
@@ -68,7 +71,7 @@
        cy="0.5"
        rx="1164"
        ry="690.5"
-       fill="white"
+       fill="#ffffff"
        id="ellipse288" />
   </mask>
   <g
