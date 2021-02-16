@@ -92,3 +92,67 @@ img.footer-background {
     left: 50%;
     transform: translate(-50%, 0);
 }
+
+.cadastro {
+    width: 521.74px;
+    height: 763px;
+    background: #92E3A9;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
+
+.titulo {
+    width: 521.74px;
+    height: 162px;
+    position: relative; 
+    background: white;
+    padding-left: 50px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.titulo p {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 47px;
+    letter-spacing: 0.16px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-90%);
+}
+.campo {
+    padding-left: 15px;
+}
+
+
+.campo input {
+    width: 412.99px;
+    height: 59.68px;
+    background: #FFFFFF;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.campo label {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+    letter-spacing: 0.16px;
+}
+
+.cadastro > input {
+    width: 204.39px;
+    height: 47.17px;
+    background: #000000;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.38px;
+    color:#FFFFFF;
+    margin: 50px 150px 50px 150px;
+}
