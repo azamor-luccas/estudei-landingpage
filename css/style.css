@@ -160,7 +160,14 @@ img.footer-background {
 
 
 /* gomes */
-
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
 .AreaDosProfessores{
     display: flex;
     flex-direction: column;
@@ -173,12 +180,14 @@ img.footer-background {
 .headerProfessores{
     display: flex;
     height: 70px;
-    width: 80%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
     border-radius: 30px;
-    background-color: red;
+    /* background-color: red; */
+    box-shadow: 0 0 1em black;
+    margin-bottom: 30px;
 }
 .botaoHeaderProfessores{
     display: flex;
@@ -186,6 +195,9 @@ img.footer-background {
     width: 50px;
     border-radius: 25px;
     background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1em black;
 }
 .txtHeaderProfessores{
     font-size: 30px;
@@ -202,9 +214,83 @@ img.footer-background {
     border-radius: 30px;
     border: black;
     border-width: 5px;
-    background-color: chartreuse;
 }
 .Cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 232.1px;
+    height: 509px;
+    border-radius: 16px;
+    box-shadow: 0 0 1em black;
+    border: black;
+    border-width: 3px;
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+.PerfilProfessorContainer{
+    display: flex;
+    position: absolute;
+    top: -50px;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 75px;
+    border-width: 10px;
+    border-color: #FFFFFF;
+    background-color: #92E3A9;
+    align-items: center;
+    justify-content: center;    
+}
+.card-body{
+    margin-top: 75px;
+    height: 100%;
+}
+.card-name{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.card-diciplina-div{
+    display: flex;
+    height: 25px;
+    width: 171px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color:#FFFFFF;
+    margin-top: 15px;
+}
+.card-diciplina-txt{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.card-curriculo-div{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+
+}
+.card-curriculo-icon{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #92E3A9;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.card-curriculo-txt{
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+/* .Cards{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -215,7 +301,170 @@ img.footer-background {
     border: black;
     border-width: 3px;
     background-color: purple;
+} */
+.AreaDosProfessores2{
+    display: flex;
+    flex-direction: column;
+    /* height: 100px; */
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* box-shadow: 0 0 1em black; */
+    /* background-color: brown; */
 }
-.diciplina{
+.AreaDosRecursos{
+    display: flex;
+    flex-direction: column;
+    /* height: 100px; */
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* box-shadow: 0 0 1em black; */
+    /* background-color: brown; */
+}
+.CardRecurso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 194.1px;
+    height: 277px;
+    border-radius: 16px;
+    background-color: #000000;
+    margin:15px;
+}
+.card-body2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardRecurso-imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82px;
+    height: 82px;
+    border-radius: 41px;
+    background-color: #92E3A9;
+}
+.cardRecurso-tema{
+    font-weight: 600;
+    font-size: 17px;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.cardRecurso-bloco0{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.cardRecurso-bloco1{
+    width: 59px;
+    height: 4.7px;
+    border-radius: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #92E3A9;
+}
+.cardRecurso-bloco2{
+    width: 23px;
+    height: 4.7px;
+    border-radius: 28px;
+    background-color: #92E3A9;
+}
+.cardRecurso-descricao{
+    font-weight: 600;
+    font-size: 14px;
+    color:#92E3A9;
+    text-align: center;
+}
+
+
+.CardePreco{
+    display: flex;
+    height: 219px;
+    width: 1235px;
+    border-radius: 16px;
+    justify-content: space-around;
+    align-items: center;
+    background: #000000;
+}
+.CardePreco-Teste{
+    font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0.15848539769649506px;
+text-align: center;
+color: #92E3A9;
+
 
 }
+.CardePreco-direita{
+    display: flex;
+    width: 30%;
+    /* flex: 1; */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;  
+}
+.CardePreco-centro{
+    display: flex;
+    width: 40%;
+    /* flex: 1; */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;  
+}
+.CardePreco-esquerda{
+    display: flex;
+    width: 30%;
+    /* flex: 1; */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;  
+}
+.CardePreco-Preco{
+    font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+color: #92E3A9;
+}
+.CardePreco-Comece{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 61.8763427734375px;
+width: 435px;
+border-radius: 28px;
+background: #92E3A9;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0.15848539769649506px;
+text-align: center;
+color: #000000;
+
+
+
+}
+.CardePreco-Vagas{
+    font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0.15848539769649506px;
+text-align: center;
+color: #92E3A9;
+}
+
+
