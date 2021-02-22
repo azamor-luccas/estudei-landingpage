@@ -282,7 +282,7 @@ img.footer-background {
 }
 .card-curriculo-icon{
     display: flex;
-    width: 32px;
+    min-width: 32px;
     height: 32px;
     border-radius: 16px;
     background-color: #92E3A9;
