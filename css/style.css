@@ -186,7 +186,7 @@ img.footer-background {
     padding: 20px;
     border-radius: 30px;
     /* background-color: red; */
-    box-shadow: 0 0 1em black;
+    box-shadow: 0 0 0.3em black;
     margin-bottom: 30px;
 }
 .botaoHeaderProfessores{
@@ -197,7 +197,7 @@ img.footer-background {
     background-color: white;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 1em black;
+    box-shadow: 0 0 0.3em black;
 }
 .txtHeaderProfessores{
     font-size: 30px;
@@ -223,16 +223,17 @@ img.footer-background {
     width: 232.1px;
     height: 509px;
     border-radius: 16px;
-    box-shadow: 0 0 1em black;
+    box-shadow: 0 0 0.3em black;
     border: black;
     border-width: 3px;
     background-color: #FFFFFF;
     margin: 20px;
+    margin-top: 70px;
 }
 .PerfilProfessorContainer{
     display: flex;
     position: absolute;
-    top: -50px;
+    top: -5px;
     width: 150px;
     height: 150px;
     border-style: solid;
@@ -242,6 +243,11 @@ img.footer-background {
     background-color: #92E3A9;
     align-items: center;
     justify-content: center;    
+}
+.PerfilProfessor{
+    border-radius: 100%;
+    border-width: 10px;
+    border-color: #FFFFFF;
 }
 .card-body{
     margin-top: 75px;
