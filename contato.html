@@ -70,7 +70,7 @@
                         <div class="campo">
                             <label for="email">Email</label>
                             <br/>
-                            <input type="email" id="nome" name="nome" placeholder="Digite seu email*" required>
+                            <input type="email" id="email" name="email" placeholder="Digite seu email*" required>
                         </div>
                         <div class="campo">
                             <label for="cpf">CPF</label>
@@ -102,6 +102,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js "></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js "></script>
+    <script>
+        const myForm = document.getElementById('cadastro')
+
+        myForm.addEventListener('submit', function(e){
+            e.preventDefault()
+
+            const formData = new FormData(this)
+ 
+            fetch(tolken , {
+                method: 'post',
+                body: formData
+            }).then(function (response){
+                return(response.text)
+            }).then()
+        })
+
+    </script>
 </body>
 
 </html>
