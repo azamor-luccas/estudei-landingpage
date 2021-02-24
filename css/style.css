@@ -94,19 +94,16 @@ img.footer-background {
 }
 
 .cadastro {
-    width: 521.74px;
-    height: 763px;
+    padding: 1em;
     background: #92E3A9;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
 
 .titulo {
-    width: 521.74px;
     height: 162px;
-    position: relative; 
+    position: relative;
     background: white;
-    padding-left: 50px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 20px;
@@ -114,19 +111,21 @@ img.footer-background {
 }
 
 .titulo p {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
     font-size: 37px;
     line-height: 47px;
     letter-spacing: 0.16px;
     color: black;
-    position: absolute;
     top: 50%;
-    transform: translate(0,-90%);
+    transform: translate(0, -90%);
 }
+
 .campo {
     padding-left: 15px;
 }
-
 
 .campo input {
     width: 412.99px;
@@ -145,7 +144,7 @@ img.footer-background {
     letter-spacing: 0.16px;
 }
 
-.cadastro > input {
+.cadastro>input {
     width: 204.39px;
     height: 47.17px;
     background: #000000;
@@ -153,22 +152,14 @@ img.footer-background {
     font-weight: 700;
     font-size: 24px;
     letter-spacing: 0.38px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin: 50px 150px 50px 150px;
 }
 
 
-
 /* gomes */
-.flexContainer{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-}
-.AreaDosProfessores{
+
+.flexContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -177,7 +168,16 @@ img.footer-background {
     margin-top: 100px;
 }
 
-.headerProfessores{
+.AreaDosProfessores {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.headerProfessores {
     display: flex;
     height: 70px;
     width: 100%;
@@ -189,7 +189,8 @@ img.footer-background {
     box-shadow: 0 0 0.3em black;
     margin-bottom: 30px;
 }
-.botaoHeaderProfessores{
+
+.botaoHeaderProfessores {
     display: flex;
     height: 50px;
     width: 50px;
@@ -199,12 +200,14 @@ img.footer-background {
     justify-content: center;
     box-shadow: 0 0 0.3em black;
 }
-.txtHeaderProfessores{
+
+.txtHeaderProfessores {
     font-size: 30px;
     font-weight: bolder;
     /* color: gray; */
 }
-.AreaDeCards{
+
+.AreaDeCards {
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -215,7 +218,8 @@ img.footer-background {
     border: black;
     border-width: 5px;
 }
-.Cards{
+
+.Cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,7 +234,8 @@ img.footer-background {
     margin: 20px;
     margin-top: 70px;
 }
-.PerfilProfessorContainer{
+
+.PerfilProfessorContainer {
     display: flex;
     position: absolute;
     top: -5px;
@@ -242,23 +247,27 @@ img.footer-background {
     border-color: #FFFFFF;
     background-color: #92E3A9;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
-.PerfilProfessor{
+
+.PerfilProfessor {
     border-radius: 100%;
     border-width: 10px;
     border-color: #FFFFFF;
 }
-.card-body{
+
+.card-body {
     margin-top: 75px;
     height: 100%;
 }
-.card-name{
+
+.card-name {
     font-size: 20px;
     font-weight: 400;
     margin-top: 15px;
 }
-.card-diciplina-div{
+
+.card-diciplina-div {
     display: flex;
     height: 25px;
     width: 171px;
@@ -266,21 +275,23 @@ img.footer-background {
     align-items: center;
     justify-content: center;
     background-color: #000000;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin-top: 15px;
 }
-.card-diciplina-txt{
+
+.card-diciplina-txt {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
 }
-.card-curriculo-div{
+
+.card-curriculo-div {
     display: flex;
     width: 100%;
     margin-top: 15px;
-
 }
-.card-curriculo-icon{
+
+.card-curriculo-icon {
     display: flex;
     min-width: 32px;
     height: 32px;
@@ -290,12 +301,14 @@ img.footer-background {
     justify-content: center;
     margin-top: 15px;
 }
-.card-curriculo-txt{
+
+.card-curriculo-txt {
     font-weight: 700;
     font-size: 15px;
     margin-top: 15px;
-
 }
+
+
 /* .Cards{
     display: flex;
     flex-direction: column;
@@ -308,7 +321,8 @@ img.footer-background {
     border-width: 3px;
     background-color: purple;
 } */
-.AreaDosProfessores2{
+
+.AreaDosProfessores2 {
     display: flex;
     flex-direction: column;
     /* height: 100px; */
@@ -319,7 +333,8 @@ img.footer-background {
     /* box-shadow: 0 0 1em black; */
     /* background-color: brown; */
 }
-.AreaDosRecursos{
+
+.AreaDosRecursos {
     display: flex;
     flex-direction: column;
     /* height: 100px; */
@@ -330,7 +345,8 @@ img.footer-background {
     /* box-shadow: 0 0 1em black; */
     /* background-color: brown; */
 }
-.CardRecurso{
+
+.CardRecurso {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -339,14 +355,16 @@ img.footer-background {
     height: 277px;
     border-radius: 16px;
     background-color: #000000;
-    margin:15px;
+    margin: 15px;
 }
-.card-body2{
+
+.card-body2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.cardRecurso-imgContainer{
+
+.cardRecurso-imgContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -355,19 +373,21 @@ img.footer-background {
     border-radius: 41px;
     background-color: #92E3A9;
 }
-.cardRecurso-tema{
+
+.cardRecurso-tema {
     font-weight: 600;
     font-size: 17px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-align: center;
 }
 
-.cardRecurso-bloco0{
+.cardRecurso-bloco0 {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-.cardRecurso-bloco1{
+
+.cardRecurso-bloco1 {
     width: 59px;
     height: 4.7px;
     border-radius: 28px;
@@ -375,21 +395,22 @@ img.footer-background {
     margin-right: 20px;
     background-color: #92E3A9;
 }
-.cardRecurso-bloco2{
+
+.cardRecurso-bloco2 {
     width: 23px;
     height: 4.7px;
     border-radius: 28px;
     background-color: #92E3A9;
 }
-.cardRecurso-descricao{
+
+.cardRecurso-descricao {
     font-weight: 600;
     font-size: 14px;
-    color:#92E3A9;
+    color: #92E3A9;
     text-align: center;
 }
 
-
-.CardePreco{
+.CardePreco {
     display: flex;
     height: 219px;
     width: 1235px;
@@ -398,79 +419,89 @@ img.footer-background {
     align-items: center;
     background: #000000;
 }
-.CardePreco-Teste{
-    font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 47px;
-letter-spacing: 0.15848539769649506px;
-text-align: center;
-color: #92E3A9;
 
-
+.CardePreco-Teste {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0.158px;
+    text-align: center;
+    color: #92E3A9;
 }
-.CardePreco-direita{
+
+.CardePreco-direita {
     display: flex;
     width: 30%;
     /* flex: 1; */
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;  
+    height: 100%;
 }
-.CardePreco-centro{
+
+.CardePreco-centro {
     display: flex;
     width: 40%;
     /* flex: 1; */
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;  
+    height: 100%;
 }
-.CardePreco-esquerda{
+
+.CardePreco-esquerda {
     display: flex;
     width: 30%;
     /* flex: 1; */
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;  
+    height: 100%;
 }
-.CardePreco-Preco{
-    font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-text-align: center;
-color: #92E3A9;
+
+.CardePreco-Preco {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    color: #92E3A9;
 }
-.CardePreco-Comece{
+
+.CardePreco-Comece {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 61.8763427734375px;
-width: 435px;
-border-radius: 28px;
-background: #92E3A9;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0.15848539769649506px;
-text-align: center;
-color: #000000;
-
-
-
-}
-.CardePreco-Vagas{
-    font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 47px;
-letter-spacing: 0.15848539769649506px;
-text-align: center;
-color: #92E3A9;
+    width: 435px;
+    border-radius: 28px;
+    background: #92E3A9;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.15848539769649506px;
+    text-align: center;
+    color: #000000;
 }
 
+.CardePreco-Vagas {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0.15848539769649506px;
+    text-align: center;
+    color: #92E3A9;
+}
 
+.text-message {
+    font-size: 0.8em;
+    color: red;
+}
+
+.formdiv {
+    padding: 0.5em;
+}
+
+.last-cta {
+    position: relative;
+    top: 45%;
+}
