@@ -505,3 +505,20 @@ img.footer-background {
     position: relative;
     top: 45%;
 }
+
+.campo-termo {
+    display: flex;
+}
+
+#termos {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.termos-text {
+    margin: 0;
+}
+
+.termos-checkbox {
+    margin-top: 0.3em;
+}
