@@ -778,24 +778,24 @@
                     <h1 class="last-cta">Faça seu cadastro agora!</h1>
                 </div>
                 <div class="col-lg-6 formdiv">
-                    <form class="cadastro">
+                    <form id="cadastro" class="cadastro">
                         <div class="titulo">
                             <p>Cadastro</p>
                         </div>
                         <div class="campo">
-                            <label for="nome">Nome</label>
+                            <label for="name">Nome</label>
                             <br/>
-                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                            <input type="text" id="nome" name="name" placeholder="Digite seu nome*" required>
                         </div>
                         <div class="campo">
-                            <label for="celular">Celular</label>
+                            <label for="cellphone">Celular</label>
                             <br/>
-                            <input type="text" id="celular" name="celular" placeholder="Digite seu celular*" required>
+                            <input type="text" id="celular" name="cellphone" placeholder="Digite seu celular*" required>
                         </div>
                         <div class="campo">
                             <label for="email">Email</label>
                             <br/>
-                            <input type="email" id="nome" name="nome" placeholder="Digite seu email*" required>
+                            <input type="email" id="nome" name="email" placeholder="Digite seu email*" required>
                         </div>
                         <div class="campo">
                             <label for="cpf">CPF</label>
@@ -827,7 +827,23 @@
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js "></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js "></script>
+    <script>
+        const myForm = document.getElementById('cadastro')
+
+        myForm.addEventListener('submit', function(e) {
+            e.preventDefault()
+
+            const formData = new FormData(this)
+
+
+            fetch("https://estudei-api.herokuapp.com/potential_client", {
+                method: 'post',
+                body: formData
+            }).then(function(response) {
+                window.location.href = "https://pay.juno.com.br/checkout.html?code=1DC6F2112F0D03FA";
+            }).then()
+        })
+    </script>
 </body>
 
 </html>
