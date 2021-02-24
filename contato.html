@@ -110,9 +110,10 @@
     <script>
         var check_cald = document.getElementById('TermoDeUso');
         var formulario= document.getElementById('formulario');
-     
+        
+        
+        var TermoDeUso
         check_cald.onchange = function(){
-            var TermoDeUso
             if(check_cald.checked){
                 TermoDeUso = "Sim";
             }else{
@@ -120,8 +121,18 @@
             }
             alert("TermoDeUso: "+TermoDeUso);
         }
-
-
+        
+        const myFunction = ()=>{
+            if(TermoDeUso==='Sim'){
+                window.location.href = "https://pay.juno.com.br/checkout.html?code=1DC6F2112F0D03FA"
+            }
+            else{
+                alert(confirmar leitura do Termo de Uso)
+            }
+        }
+        
+        
+        fomulario.addEventListener("click", myFunction);
      
     </script>
 </body>
