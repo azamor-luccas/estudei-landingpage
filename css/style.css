@@ -505,3 +505,21 @@ img.footer-background {
     position: relative;
     top: 45%;
 }
+.TermoContainer{
+    margin:40px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.link{
+    color: rgb(28, 160, 248);
+}
+.linkFooter{
+    position: absolute;
+    color: white;
+    font-size: large;
+    margin-left: 100px;
+}

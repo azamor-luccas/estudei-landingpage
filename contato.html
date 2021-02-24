@@ -78,11 +78,14 @@
                             <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF*" required>
                         </div>
                         
-        
-                        <input type="checkbox" id="TermoDeUso" />
+                        <div class="TermoContainer">
+                            <div style="color:white"> Declaro que Li e Concordo com<br> o <a class="link" href="file:///C:/Users/ferna_dpnfnj8/Documents/GitHub/estudei-landingpage/termoDeUso.html">Termo de uso</a></div>
+                            <input type="checkbox" id="TermoDeUso" />
+                        </div>
+                        
                         
                         <p class="text-message">Após a confirmação do pagamento você receberá um email com suas credenciais em até 24h.</p>
-                        <input type="submit" name="acao" value="Cadastrar">
+                        <input type="submit" name="acao" value="Cadastrar" id="botaoForm">
                     </form>
                 </div>
             </div>
@@ -97,6 +100,7 @@
                 <img class="footer-logo" src="img/estudei-logo.svg" alt="logo estudei" />
             </div>
         </div>
+        <a class="linkFooter" href="file:///C:/Users/ferna_dpnfnj8/Documents/GitHub/estudei-landingpage/termoDeUso.html">Termo de uso</a>
     </footer>
 
     <!-- Bootstrap core JS-->
@@ -109,7 +113,7 @@
 
     <script>
         var check_cald = document.getElementById('TermoDeUso');
-        var formulario= document.getElementById('formulario');
+        var botaoForm= document.getElementById('botaoForm');
         
         
         var TermoDeUso
@@ -123,16 +127,16 @@
         }
         
         const myFunction = ()=>{
-            if(TermoDeUso==='Sim'){
-                window.location.href = "https://pay.juno.com.br/checkout.html?code=1DC6F2112F0D03FA"
-            }
-            else{
-                alert(confirmar leitura do Termo de Uso)
-            }
+            // if(TermoDeUso==='Sim'){
+            //     window.location.href = "https://pay.juno.com.br/checkout.html?code=1DC6F2112F0D03FA"
+            // }
+            // else{
+            // }
+            alert(confirmar leitura do Termo de Uso)
         }
         
         
-        fomulario.addEventListener("click", myFunction);
+        botaoForm.addEventListener("click", myFunction);
      
     </script>
 </body>
